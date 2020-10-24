@@ -1,4 +1,4 @@
-package com.vladf.labs.lab5;
+package com.vladf.labs.lab5.data;
 
 import java.util.ArrayList;
 
