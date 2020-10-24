@@ -6,7 +6,6 @@ import com.vladf.labs.lab5.data.PIS;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.management.OperatingSystemMXBean;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -50,11 +49,11 @@ public class Main {
 
         /*
         * System.out.println("\nHTTPConnection info:");
-        System.out.println("GET Response Code = " + responseCode);
-        for (int i = 1; i <= 8; i++) {
-            System.out.println(httpURLConnection.getHeaderFieldKey(i) + " = " + httpURLConnection.getHeaderField(i));
-        }
-        * */
+        * System.out.println("GET Response Code = " + responseCode);
+        *  for (int i = 1; i <= 8; i++) {
+        *     System.out.println(httpURLConnection.getHeaderFieldKey(i) + " = " + httpURLConnection.getHeaderField(i));
+        * }
+        */
     }
 }
 interface Informator {
